@@ -6,9 +6,16 @@ namespace pz_5
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            int b = 5;
-
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            if (a<b) ;
+            {
+                Console.WriteLine("idy v shkoly");
+            }
+            else a > b;
+            {
+               Console.WriteLine("ne idy v shkoly");
+            }
 
 
         }
