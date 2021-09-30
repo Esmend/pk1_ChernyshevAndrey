@@ -6,18 +6,18 @@ namespace pz_5
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            if (a<b) ;
-            {
-                Console.WriteLine("idy v shkoly");
+            Console.WriteLine("Задание 1");
+            { 
+             int a;
+                for (a = 20; a <= 90; a += 5)
+                {
+                    Console.WriteLine(a);
+                }
             }
-            else a > b;
+            Console.WriteLine("Задание 2");
             {
-               Console.WriteLine("ne idy v shkoly");
+
             }
-
-
         }
     }
 }
