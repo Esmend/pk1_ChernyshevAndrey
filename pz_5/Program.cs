@@ -6,7 +6,11 @@ namespace pz_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 3;
+            int b = 5;
+
+
+
         }
     }
 }
