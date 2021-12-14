@@ -10,9 +10,9 @@ namespace pz_6
             int b = 0;
             while (b < 10)
             {
-                b++;                            
-                Console.WriteLine($"{a*b} = {a} * {b}");
-            }                          
+                b++;
+                Console.WriteLine($"{a * b} = {a} * {b}");
+            }
         }
     }
 }
